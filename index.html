@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- playerbox -->
+        <div class="player">
+            <div class="text">
+                <h2 id="track">Jeene Laga Hoon</h2>
+                    <h5 id="artist">Atif Aslam & shreya Ghoshal</h5>
+            </div>
+            <div class="image">
+                <img src="Image/circle.jpg" alt="">
+            </div>
+            <!-- controls -->
+            <div class="controls">
+                <!-- progress -->
+                <div class="progress_container">
+                    <div class="duration">
+                      <div class="start">0:00</div>
+                      <div class="end">NaN</div>
+                    </div>
+                    <div class="progress_bar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <i class=" fas fa-backward" title="Backward"id="Backword"></i>
+                <i class=" fas fa-play" title="Play"id="Play"></i>
+                <i class=" fas fa-forward"id="Forward" title="Forward"></i>
+                <audio src="music/Jeene Laga Hoon.mp3"></audio>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
