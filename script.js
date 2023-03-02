@@ -40,7 +40,7 @@ let song = [
     artist: "Atif Aslam & Shreya Ghoshal",
   },
   {
-    name: "Chahun Main ya Naa",
+    name: "Chahun Main Ya Naa",
     artist: "Arjit Singh",
   },
   {
